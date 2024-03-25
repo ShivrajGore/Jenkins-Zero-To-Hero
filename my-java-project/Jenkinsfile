@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile Java code
-                    sh 'javac -g https://github.com/ShivrajGore/Jenkins-Zero-To-Hero/tree/main/my-java-project/HelloWorld.java'
+                    sh 'javac -g /home/ubuntu/Jenkins-Zero-To-Hero/my-java-project/HelloWorld.java'
                 }
             }
         }
